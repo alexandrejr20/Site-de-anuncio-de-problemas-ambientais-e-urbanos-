@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 500px;
+}
+
+.navigation-bar {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation-bar button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navigation-bar button:hover {
+    background-color: #45a049;
+}
+
+.search-bar {
+    padding: 5px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px 420px;
+}
+
+.content-section {
+    border-left: 5px solid #4CAF50;
+    padding-left: 15px;
+}
+
+.content-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.content-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content-text {
+    max-width: 600px;
+}
+
+.content-text h2 {
+    margin: 0;
+}
+
+.content-text p {
+    margin-top: 10px;
+}
+
+/* Estilos para a página de registro de ocorrência */
+.ocorrencia-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.ocorrencia-container h1 {
+    margin-bottom: 20px;
+}
+
+.ocorrencia-container label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.ocorrencia-container input,
+.ocorrencia-container select,
+.ocorrencia-container textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ocorrencia-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.ocorrencia-container button:hover {
+    background-color: #45a049;
+}
+
+
+/* Estilos para a página de login */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-container input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.register-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link:hover {
+    color: #4CAF50; /* Verde */
+} 

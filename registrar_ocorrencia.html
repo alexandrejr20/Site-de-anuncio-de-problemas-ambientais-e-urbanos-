@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Ocorrência</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./Image/logo.png" alt="Logo da Empresa" class="logo">
+        </div>
+        <!--Barra de navegação-->
+        <nav class="navigation-bar">
+            <div class="button-container">
+                <button onclick="window.location.href='index.html'">Início</button>
+                <button>Blog</button>
+                <button onclick="window.location.href='registrar_ocorrencia.html'">Registrar Ocorrência</button>
+                <button onclick="window.location.href='login.html'">Entrar</button>
+                <input type="text" placeholder="Pesquisa..." class="search-bar">
+            </div>
+        </nav>
+    </header>
+    <div class="ocorrencia-container">
+        <!--Formulário-->
+        <h1>Registrar Ocorrência</h1>
+        <form>
+            <label for="rua">Nome da Rua</label>
+            <input type="text" id="rua" name="rua" required>
+
+            <label for="referencia">Referência</label>
+            <input type="text" id="referencia" name="referencia" required>
+
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro" required>
+
+            <label for="tipo">Tipo de Ocorrência</label>
+            <select id="tipo" name="tipo" required>
+                <option value=""></option>
+                <option value="Vegetação irregular">Grama alta</option>
+                <option value="Irregularidade na via">Irregularidade da via</option>
+                <option value="Obstrução da via">Árvore obstruindo o caminho</option>
+                <option value="Água parada">Possível ponto de dengue</option>
+            </select>
+
+            <label for="relato">Relato</label>
+            <textarea id="relato" name="relato" rows="4" required></textarea>
+
+            <label for="imagem">Upload de Imagem</label>
+            <input type="file" id="imagem" name="imagem" accept="image/*" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
